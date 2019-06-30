@@ -38,6 +38,14 @@ import retrofit2.Retrofit;
 import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory;
 import retrofit2.converter.gson.GsonConverterFactory;
 
+/*
+    TODO : CompositeDisposables
+    https://proandroiddev.com/disposing-on-android-the-right-way-97bd55cbf970
+    http://reactivex.io/RxJava/javadoc/io/reactivex/disposables/CompositeDisposable.html
+    https://www.vogella.com/tutorials/RxJava/article.html#disposing-subscriptions-and-using-compositedisposable
+
+ */
+
 public class MainActivity extends AppCompatActivity implements CredentialsDialog.ICredentialsDialogListener {
 
     GithubAPI githubAPI;
