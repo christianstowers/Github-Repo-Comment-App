@@ -39,6 +39,11 @@ import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 /*
+    TODO : Vogella Tutorial URL
+    https://www.vogella.com/tutorials/Retrofit/article.html#exercise-using-retrofit-to-access-github-api-in-android
+ */
+
+/*
     TODO : CompositeDisposables
     https://proandroiddev.com/disposing-on-android-the-right-way-97bd55cbf970
     http://reactivex.io/RxJava/javadoc/io/reactivex/disposables/CompositeDisposable.html
